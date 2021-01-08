@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{FF7E6328-EB6D-4B46-A03D-5055886CDF52}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="weeeb/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/5.4.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2003" Column="30" />
+      <File FileName="weeeb/Content/css/normalize.css" Line="1" Column="1" />
+      <File FileName="weeeb/Content/css/style.css" Line="95" Column="2" />
+      <File FileName="weeeb/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="weeeb/Controllers/SharedController.cs" Line="1" Column="1" />
+      <File FileName="weeeb/Views/Home/Index.cshtml" Line="40" Column="1" />
+      <File FileName="weeeb/Views/Shared/_Layout.cshtml" Line="68" Column="1" />
+      <File FileName="weeeb/Views/web.config" Line="1" Column="1" />
+      <File FileName="weeeb/ApplicationInsights.config" Line="1" Column="1" />
+      <File FileName="weeeb/Global.asax" Line="1" Column="1" />
+      <File FileName="weeeb/packages.config" Line="1" Column="1" />
+      <File FileName="weeeb/Web.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.weeeb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

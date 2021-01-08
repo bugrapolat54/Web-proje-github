@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <link href="~/Content/css/homepage-references.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="container">
+        <header>
+            <a href="/">
+                <div id="logo"></div>
+            </a>
+            <div id="socialmedia">
+                <a href="http://facebook.com" target="_blank">
+                    <div class="social">
+                        <img src="~/Content/img/iconmonstr-facebook-5-icon.png" alt="facebook" />
+                    </div>
+                </a>
+                <a href="http://instagram.com" target="_blank">
+                    <div class="social">
+                        <img src="~/Content/img/instagram_circle_black-512.png" alt="instagram" />
+                    </div>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <a href="/">
+                <div class="nav-item">
+                    <span>Ana Sayfa</span>
+                </div>
+            </a>
+            <a href="/tarifler">
+                <div class="nav-item">
+                    <span>Yemek çeşidi</span>
+                </div>
+            </a>
+            <a href="/egzersiz">
+                <div class="nav-item">
+                    <span>Spor</span>
+                </div>
+            </a>
+            <a href="/dernek">
+                <div class="nav-item">
+                    <span>Topluluk</span>
+                </div>
+            </a>
+            <a href="/tanitim">
+                <div class="nav-item">
+                    <span>Tanıtım</span>
+                </div>
+            </a>
+
+        </nav>
+        <section id="content">
+            @RenderBody()
+        </section>
+        <footer>
+            <small>2020 </small>
+        </footer>
+    </section>
+
+</body>
+</html>

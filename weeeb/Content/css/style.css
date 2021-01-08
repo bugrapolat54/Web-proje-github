@@ -1,0 +1,154 @@
+﻿@import url(normalize.css);
+body{
+    font-family:Verdana,Arial,sans-serif;
+    font-size:14px;
+    background:grey;
+}
+
+#container{
+    width:960px;
+    position:relative;
+    margin:10px auto;
+    border:1px solid black;
+    background:white;
+}
+
+
+header{
+    width:960px;
+    height:120px;
+    position:relative;
+}
+
+#logo{
+    width:384px;
+    height:120px;
+    position:relative;
+    margin:auto;
+    background:url(/Content//img/sag.jpg) no-repeat center center;
+}
+
+#socialmedia{
+    width:180px;
+    height:48px;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.social{
+    width:40px;
+    height:40px;
+    position:relative;
+    float:right;
+    margin-left:10px;
+    background:black;
+}
+
+nav{
+    width:960px;
+    height:38px;
+    line-height:38px;
+    text-align:center;
+    position:relative;
+}
+
+.nav-item{
+    width:191px;
+    height:38px;
+    position:relative;
+    float:left;
+    border:1px solid black;
+    border-left:0;
+    background:grey;
+    color:white;
+    font-size:14px;
+}
+
+#content{
+    width:920px;
+    padding:20px;
+    position:relative;
+    text-align:justify;
+}
+
+#content h1{ 
+    font-size:18px;
+    text-align:center;
+}
+
+.img-left{
+    width:260px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+footer{
+    width:960px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    position:relative;
+    border-top:1px solid black;
+    color:white;
+    background:grey;
+}
+
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+    #slider {
+        overflow:hidden;
+
+    }
+
+    #slider figure img{
+        width:20%;
+        float:left;
+    }
+
+    #slider figure{
+        position:relative;
+        width:500%;
+        margin:0;
+        left:0;
+        text-align:left;
+        font-size:0;
+        animation:20s slider infinite;
+
+    }

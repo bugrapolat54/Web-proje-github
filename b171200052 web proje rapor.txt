@@ -1,0 +1,35 @@
+Grup üyeleri ad-soyad-no:
+Buğra Ömer Polat
+B171200052
+
+Video link: https://www.youtube.com/watch?v=vG2JOXsJ3cI
+GitHub link: 
+
+Projemde Authentication ve Verification yoktu çünkü geçen hafta düşündüğüm ayrıcalık olayı,şu imkanlarda biraz saçma geldi
+Siteyi yaparken;herkesin eşit seviyede erişebilmesi ve ihtiyaç duyuluyorsa bilgileri kullanabilmesi esasına dayalı olması gerekiyordu.
+Veritabanım olmayınca auth olayı boşa gidecekti hem de ReCaptcha ya ihtiyacım vardı ki bot dediğimiz sahte kişiler tarafından giriş olmasın.
+Bu botların olayı şudur:Twitch de Viewer,Instagram da Like,Follower arttırmak gibi..
+Hissettirilmeden yapılır bunlar da,nedeni güvenlik algoritmasına yakalanmamaktır.
+ORM dediğimiz şeyin açılımı:Object Relational Mapping'dir.
+Bu ORM; veritabanını(olsaydı),sınıflar ve nesneler üzerinden yönetmemizi sağlayan yazılımdır.
+Nesne ve yazılım arasında köprü görevi görür.
+ORM nin avantajlarını ve dezavantajlarını şöyle sıralayacak olursak :
+
+ORM kullanmanın avantajları
+
+1) Nesne tabanlı programlama standartlarına uygun olarak kod yazma imkanı verir.
+2) Minimum SQL bilgisi ile veritabanı işlemleri yapmak imkanı tanır.
+3) Veritabanı platformu bağımlılığı yoktur. Oracle kullanıyorken MSSQL geçişini sorunsuzca gerçekleştirebiliriz.
+4) Ado.net’e karşı daha güvenlidir. Sql Injection gibi bilinen saldırılara karşı güvenlik önlemleri vardır.
+5) Kod yazma süresini kısaltır.
+6) Kod okunabilirliğini arttırır.
+
+ORM kullanmanın dezavantajları
+
+1) Ado.net’e kıyasla performans olarak daha yavaştır.
+2) Veritabanı nesneler üzerinden modellendiğinden nesneler arasında bağ bulunmaktadır. 
+3) Bilinçsiz yapılan müdahaleler ile bağlantıyı bozma durumu bulunmaktadır.
+4) İlk kez başlayacak olanlar için yazım kuralları (syntax) farklı gelebilir.
+
+Admin panelinin amacı ise;kendinize bir takım özellikler(privileges) vererek kendinizi diğer kullanıcılardan üstün kılmaktır.
+Verilere erişilmesini yani kodlara müdahaleyi engellemek(security) ve gizli tutmak(private properties)tır.
